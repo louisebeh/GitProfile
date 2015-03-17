@@ -1,0 +1,18 @@
+{
+  "name": "github-profile",
+  "version": "0.0.0",
+  "authors": [
+    "Louise Beh <louise.beh@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"
+  }
+}
