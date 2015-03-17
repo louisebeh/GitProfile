@@ -8,9 +8,9 @@ $(document).ready(function() {
 
     var template = $('template').html();
 
-    var info =$.get(url, function(info) {
+    var info = $.get(url, function(info) {
       $('.container').prepend(Mustache.render(template, info));
-    }).fail(function() {
+    }).fail(function() {gi
       $('.container').prepend("User not found")
     }).always(function() {
       $('input.username').val('');
